@@ -63,8 +63,16 @@
   margin-right: 20px;
 }
 
+.mbr_28 {
+  margin-right: 28px;
+}
+
 .mgr_29 {
   margin-right: 29px;
+}
+
+.mgr_30 {
+  margin-right: 30px;
 }
 
 .mgr_32 {
@@ -341,7 +349,10 @@ a {
   line-height: 36px;
   font-weight: lighter;
 }
-.banner .content .btn {
+.banner .content .shop {
+  display: block;
+  text-align: center;
+  padding-top: 13px;
   color: #FFFFFF;
   font-size: 28px;
   width: 360px;
@@ -350,7 +361,7 @@ a {
   border-radius: 30px;
   height: 60px;
 }
-.banner .content .btn:hover {
+.banner .content .shop:hover {
   background: #FFFFFF4D 0% 0% no-repeat padding-box;
   -webkit-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
@@ -872,8 +883,9 @@ a {
   border: #916000 2px solid;
   width: 229px;
   margin-bottom: 10px;
-  margin-top: 1px;
+  margin-top: -1px;
   margin-left: -1px;
+  margin-bottom: -3px;
 }
 .footer .input_info a {
   font-size: 16px;
@@ -955,4 +967,27 @@ a {
   .bg-orange .menu_footer {
     display: none;
   }
+}
+
+.banner_product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #916000;
+  height: 52px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+ul a {
+  color: #fff;
 }
