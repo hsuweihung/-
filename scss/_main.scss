@@ -355,6 +355,9 @@ a{
     justify-content: center;
     align-items: center;
     background-color: $product-list-background;
+    p{
+        color: #000;
+    }
     @include product_list;
 
     @media (max-width:1190px) {
@@ -394,6 +397,7 @@ a{
 
     .line-through{
         display: inline-block;
+        color: grey;
         text-decoration: line-through;
     }
 }
