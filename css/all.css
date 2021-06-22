@@ -875,7 +875,7 @@ a {
 }
 @media (max-width: 767px) {
   .footer .input_info {
-    padding-top: -10px;
+    padding-top: 0px;
   }
 }
 .footer .input_info a {
