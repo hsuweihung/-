@@ -154,9 +154,12 @@
 @mixin input_info {
     border: $bg-orange 2px solid;
     width: 229px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     margin-left: -1px;
     @media (max-width:767px) {
-        padding-top: 0px;
+        padding-top: 20px;
+
     }
     a{
         font-size: 16px;
