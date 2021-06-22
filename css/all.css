@@ -689,8 +689,13 @@ a {
   background-color: #E0E0E0;
   font-family: SF Pro Text;
 }
-.product_list p, .product_list_content p {
+.product_list .mgb_8 p, .product_list_content .mgb_8 p {
   color: #000;
+}
+.product_list .mgb_8 .pad_l_8, .product_list_content .mgb_8 .pad_l_8 {
+  display: inline-block;
+  color: grey;
+  text-decoration: line-through;
 }
 .product_list h3, .product_list_content h3 {
   font-size: 24px;
@@ -749,11 +754,6 @@ a {
   height: 540px;
   overflow: hidden;
   position: relative;
-}
-.pic img .line-through {
-  display: inline-block;
-  color: grey;
-  text-decoration: line-through;
 }
 
 .product_content {

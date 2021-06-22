@@ -355,8 +355,13 @@ a{
     justify-content: center;
     align-items: center;
     background-color: $product-list-background;
-    p{
+    .mgb_8 p{
         color: #000;
+    }
+    .mgb_8 .pad_l_8{
+        display: inline-block;
+        color: grey;
+        text-decoration: line-through;
     }
     @include product_list;
 
@@ -393,12 +398,6 @@ a{
         height: 540px;
         overflow: hidden;
         position: relative;
-    }
-
-    .line-through{
-        display: inline-block;
-        color: grey;
-        text-decoration: line-through;
     }
 }
 
