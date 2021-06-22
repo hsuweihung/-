@@ -872,13 +872,8 @@ a {
   border: #916000 2px solid;
   width: 229px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-left: -1px;
-}
-@media (max-width: 767px) {
-  .footer .input_info {
-    padding-top: 20px;
-  }
 }
 .footer .input_info a {
   font-size: 16px;
