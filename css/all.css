@@ -865,7 +865,7 @@ a {
           justify-content: space-between;
   width: 360px;
   height: 60px;
-  border: #916000 2px solid;
+  border: #916000 10px solid;
   border-radius: 0px 4px 4px 0px;
 }
 .footer .input_info {
