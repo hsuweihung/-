@@ -869,14 +869,13 @@ a {
   border-radius: 0px 4px 4px 0px;
 }
 .footer .input_info {
-  border: #916000 3px solid;
+  border: #916000 2px solid;
   width: 229px;
   margin-left: -1px;
-  margin-bottom: -1px;
 }
 @media (max-width: 767px) {
   .footer .input_info {
-    padding-top: 20px;
+    padding-top: -10px;
   }
 }
 .footer .input_info a {
