@@ -468,6 +468,9 @@ a{
     }
     .input_info{
         @include input_info;
+        @media (max-width:767px) {
+            margin-bottom:-2px;
+        }
     }
     .subscribe_text{
         width: 131px;
@@ -523,32 +526,3 @@ a{
      }
  }
 }
-
-.dropdown {
-    @media (max-width:767px){
-    position: absolute;
-    left: 0;
-    top: 100%;
-    width: 100%;
-    max-height: 0px;
-    transition: all 0.8s;
-    overflow: hidden;
-    z-index: 120;
-
-  .dropdown.active{
-    max-height: 200px;}
-
-  .dropdown li a {
-    display: block;
-    background: #AA0601;
-    color: #FFFFFF;
-    border-top: 1px solid #FFFFFF;
-    padding: 16px 0;
-    text-decoration: none;
-  }
-  .dropdown li a:hover {
-    background: #8f0400;
-  }
-     }
-}
-
