@@ -468,9 +468,6 @@ a{
     }
     .input_info{
         @include input_info;
-        @media (max-width:767px) {
-            margin-bottom:-10px;
-        }
     }
     .subscribe_text{
         width: 131px;
