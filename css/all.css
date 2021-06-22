@@ -887,6 +887,12 @@ a {
   margin-left: -1px;
   margin-bottom: -3px;
 }
+@media (max-width) {
+  .footer .input_info {
+    margin-top: -2px;
+    margin-bottom: -10px;
+  }
+}
 .footer .input_info a {
   font-size: 16px;
 }
