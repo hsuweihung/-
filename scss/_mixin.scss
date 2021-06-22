@@ -1,0 +1,184 @@
+@mixin content_h2 {            
+    font-size: $content_h2;
+    line-height: $content_h2_lh;
+}
+
+@mixin content_p {
+    font-size: $content_p;
+    line-height: $content_p_lh;
+    font-weight: $content_p_weight;
+}
+
+@mixin btn {
+    color: $btn-color;
+    font-size:$font_size_btn;
+    width: 360px;
+    background: none;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    height: 60px;
+    &:hover{
+    background: $btn-background;
+    transition:$btn-transition;
+    opacity: 1;
+}
+}
+
+@mixin banner {
+    background: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+    background-size: cover;
+    height: 870px;
+}
+
+@mixin product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin product_right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 555px;
+}
+
+@mixin product_left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 555px;
+}
+
+@mixin product_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin product_left_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin product_left_4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1110px;
+}
+
+@mixin product_btn {
+    font-size: $font_size_product-btn;
+    width: 350px;
+    height: 60px;
+    background: none;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    opacity: 1;
+    &:hover{
+    background: $product-btn-background;
+    transition:$btn-transition;
+    opacity: 1;
+}
+}
+
+@mixin product_list{
+    font-family:$product_list_fontfamily;
+    h3{
+    font-size: $product_list_h3_size;
+    line-height: $product_list_h3_lh;
+    }
+    h4{
+        font-size: $product_list_h4_size;
+    }
+    p{
+        font-size: $product_list_p_size;
+        color: $line_through;
+    }
+}
+
+@mixin product_content{
+    font-family: $product_content-fontfamily;
+    h3{
+        font-weight: bolder;
+        font-size: $product-content-h3-size;
+        line-height: $product-content-h3-lh;}
+    .size_20{
+        font-size: $product-content-p-20-size;
+        line-height: $product-content-p-lh;
+    }
+    .size_16{
+        font-size: $product-content-p-16-size;
+        line-height: $product-content-p-lh;
+    }
+    a{
+        font-family: $product-a-font-family;
+        font-size:$product-a-font;
+        color: $product-a-color;
+    }
+
+}
+
+@mixin soldout{
+    text-align: center;
+    color: #FFFF;
+    position: absolute;
+    height: 500px;
+    background: #000000;
+    opacity: 0.3;
+    top:0;
+}
+
+@mixin  footer{
+    background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/index10.jpg?raw=true");
+    background-size: cover;
+    background-position: center center;
+}
+
+@mixin footer_content {
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin input_text{
+    width: 360px;
+    height: 60px;
+    border: $bg-orange 2px solid;
+    border-radius: 0px 4px 4px 0px;
+}
+
+@mixin input_info {
+    border: $bg-orange 2px solid;
+    width: 229px;
+    margin-bottom: -2px;
+    margin-left: -1px;
+    a{
+        font-size: 16px;
+    }
+}
+
+@mixin subcribe_text{
+    margin-right: -1px;
+    margin-bottom: -2px;
+    background-color: $bg-orange;
+    padding-top: 21px;
+    padding-left: 27px;
+    color: #FFFF;
+}
+
+
+@mixin mb_hidden {
+    .mb_hidden{
+    display: none;
+} 
+}
+
+@mixin mb-contnet-padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
