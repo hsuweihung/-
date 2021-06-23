@@ -1019,12 +1019,10 @@ a {
   background-color: #916000;
   height: 52px;
 }
-@media (max-width: 1190px) {
-  .banner_product ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
+.banner_product ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 @media (max-width: 767px) {
   .banner_product {

@@ -6,9 +6,7 @@
     background-color: #916000;
     height: 52px;
     ul{
-        @media (max-width:1190px) {
             display: flex;
-        }
     }
 
     @media (max-width:767px) {
