@@ -5,13 +5,13 @@
     justify-content: space-around;
     background-color: #916000;
     height: 52px;
-    ul{
-        display: flex;
-    }
-
     @media (max-width:767px) {
         display: none;
     }
+}
+
+.banner_product ul{
+    display: flex;
 }
 
 .product_wrap ul{
