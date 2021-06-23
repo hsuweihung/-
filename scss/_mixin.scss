@@ -75,6 +75,11 @@
 }
 
 @mixin product_btn {
+    display: block;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #000000;
     font-size: $font_size_product-btn;
     width: 350px;
     height: 60px;
@@ -84,7 +89,7 @@
     opacity: 1;
     &:hover{
     background: $product-btn-background;
-    transition:$btn-transition;
+    font-size: 20px;
     opacity: 1;
 }
 }

@@ -11,5 +11,60 @@ ul{
     display: flex;
     a{
         color: #fff;
+        &:hover{
+            color: burlywood;
+        }
     }
+}
+
+.product_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product_wrap_content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    .pic .img{
+        width: 255px;
+        height: 350px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .img_2{
+        width: 255px;
+        height: 350px;
+        object-position: top;
+    }
+}
+
+.pd_icon i{
+    color: #916019;
+    &:hover{
+        font-size: 17px;
+    }
+    &:active{
+        color: 	#E0E0E0;
+    }
+}
+
+.pd_icon_1 i{
+    color: #916019;
+    &:hover{
+        font-size: 17px;
+    }
+    &:active{
+        color: 	#FF0000;
+    }
+}
+
+.line-through{
+    display: inline-block;
+    color: grey;
+    text-decoration: line-through;
 }

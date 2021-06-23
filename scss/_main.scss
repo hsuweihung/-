@@ -260,6 +260,10 @@ a{
             margin-top: 8px;
         }
     }
+    
+    .more:hover{
+            font-size: $transform-a-hover;
+        }
 
     .item_right{
         display: flex;
@@ -270,9 +274,6 @@ a{
 
     .text, .text_4{
         width:350px;
-        a:hover{
-            font-size: $transform-a-hover;
-        }
     }
 
 .text{
@@ -369,6 +370,7 @@ a{
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        margin-right: 0px;
     }
 
     @media (max-width:767px) {
@@ -376,16 +378,18 @@ a{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        margin-right: 0px;
 
     }
 }
 
     .pic{
-        width:350px;
         overflow:hidden;
     }
+    
     .pic img{
         padding-top: 40px;
+        width:350px;
         height: 540px;
         transform:$transform-product;
         transition: $transition-product;
@@ -395,7 +399,6 @@ a{
 
     .sold{
         width:350px;
-        height: 540px;
         overflow: hidden;
         position: relative;
     }
