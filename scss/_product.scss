@@ -5,13 +5,18 @@
     justify-content: space-around;
     background-color: #916000;
     height: 52px;
+    ul{
+        display: flex;
+    }
     @media (max-width:767px) {
         display: none;
     }
 }
 
-.banner_product ul{
-    display: flex;
+.pad_hidden{
+    @media (max-width:1190px) {
+        display: none;
+    }
 }
 
 .product_wrap ul{

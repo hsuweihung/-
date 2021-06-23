@@ -1019,16 +1019,21 @@ a {
   background-color: #916000;
   height: 52px;
 }
+.banner_product ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 @media (max-width: 767px) {
   .banner_product {
     display: none;
   }
 }
 
-.banner_product ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+@media (max-width: 1190px) {
+  .pad_hidden {
+    display: none;
+  }
 }
 
 .product_wrap ul {
