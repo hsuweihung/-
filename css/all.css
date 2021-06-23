@@ -1036,13 +1036,13 @@ a {
   }
 }
 
-.product_wrap ul {
+.product_wrap_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 @media (max-width: 1190px) {
-  .product_wrap ul {
+  .product_wrap_item {
     width: 30%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1050,9 +1050,15 @@ a {
   }
 }
 @media (max-width: 767px) {
-  .product_wrap ul {
+  .product_wrap_item {
     width: 45%;
   }
+}
+
+.product_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .product_banner {

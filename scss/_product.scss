@@ -19,7 +19,7 @@
     }
 }
 
-.product_wrap ul{
+.product_wrap_item{
     display: flex;
     @media (max-width:1190px) {
         width: 30%;
@@ -28,6 +28,10 @@
     @media (max-width:767px) {
         width: 45%;
     }
+}
+
+.product_icon{
+    display: flex;
 }
 
 .product_banner {
