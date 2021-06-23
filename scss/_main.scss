@@ -1,5 +1,6 @@
 @import "style";
-@import "font";
+@import "font_index";
+@import "font_product";
 @import "structure";
 @import "mixin";
 @import "reset";
@@ -31,6 +32,7 @@
         width: 100%;
         justify-content: space-around;
     }
+    
     @media (max-width:767px) {
         width: 100%;
         justify-content: space-around;
@@ -107,6 +109,7 @@ a{
             color: $a-i-hover;
         }
     }
+
     i:hover{
         transform: $transform-icon-hover;
     } 
@@ -350,7 +353,7 @@ a{
         @include product_btn;
     }
 
-.product_list, .product_list_content{
+.product_list{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -361,7 +364,7 @@ a{
     }
     .mgb_8 .pad_l_8{
         display: inline-block;
-        color: grey;
+        color: #ADADAD;
         text-decoration: line-through;
     }
     @include product_list;
@@ -370,7 +373,6 @@ a{
         width: 100%;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-right: 0px;
     }
 
     @media (max-width:767px) {
@@ -378,8 +380,13 @@ a{
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        margin-right: 0px;
-
+    }
+    .product_list_content{
+        display: flex;
+        width: 1100px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
     }
 }
 
@@ -516,7 +523,7 @@ a{
      a{
         color: #FFF;
         &:hover{
-            color: burlywood;
+            color: #deb887;
             font-size:$transform-a-hover;
         }
      }

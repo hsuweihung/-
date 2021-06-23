@@ -5,29 +5,57 @@
     justify-content: space-around;
     background-color: #916000;
     height: 52px;
-}
-
-ul{
-    display: flex;
-    a{
-        color: #fff;
-        &:hover{
-            color: burlywood;
+    ul{
+        @media (max-width:1190px) {
+            display: flex;
         }
     }
+
+    @media (max-width:767px) {
+        display: none;
+    }
 }
+
+.product_wrap ul{
+    display: flex;
+    @media (max-width:1190px) {
+        width: 30%;
+        justify-content: center;
+    }
+    @media (max-width:767px) {
+        width: 45%;
+    }
+}
+
+.product_banner {
+        color: $product_banner-color;
+    }
+
+.product_banner:hover {
+        color: $product_banner-hover-color;
+    }
 
 .product_wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    @media (max-width:1190px) {
+        margin-top: -10px;
+    }
+
+    @media (max-width:767px) {
+        margin-top: -20px;
+        h3{
+            font-size: 20px;
+        }
+    }
 }
 
 .product_wrap_content{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     max-width: 1200px;
     .pic .img{
         width: 255px;
@@ -46,7 +74,7 @@ ul{
 .pd_icon i{
     color: #916019;
     &:hover{
-        font-size: 17px;
+        font-size: $pd_icon-i-size;
     }
     &:active{
         color: 	#E0E0E0;
@@ -56,7 +84,7 @@ ul{
 .pd_icon_1 i{
     color: #916019;
     &:hover{
-        font-size: 17px;
+        font-size: $pd_icon-i-size;
     }
     &:active{
         color: 	#FF0000;
@@ -65,6 +93,28 @@ ul{
 
 .line-through{
     display: inline-block;
-    color: grey;
+    color: $line_through;
     text-decoration: line-through;
+}
+
+.pagination{
+    font-family: $pagination_font-family;
+    font-size: $pagination_font-size;
+    display: flex;
+    justify-content: center;
+    margin-top: 78px;
+    font-size: $pagination-font-size;
+    a{
+        color: $pagination_color;
+        &:hover{
+            color: $pagination_hover_color;
+            text-decoration: underline;
+        }
+    }
+}
+
+.pagination_list{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
 }
