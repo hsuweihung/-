@@ -391,9 +391,9 @@ a{
         height: 540px;
         transform:$transform-product;
         transition: $transition-product;
-        &:hover{
+        /*&:hover{
             transform:$transform-product-hover;
-        }
+        }*/
 
     .sold{
         width:350px;

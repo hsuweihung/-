@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>香水電商產品頁</title>
     <link rel="stylesheet" href="css/all.css">
+    <script src="dropdown.js"></script>
     <script src="https://kit.fontawesome.com/a4514510d1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,19 +20,24 @@
                         alt="logo"></a>
             </h1>
             <ul class="menu mgt_16">
-                <li class="mgr_32 mb_hidden">
+                <li class="pad_r_32 mb_hidden">
                     <a href="#"><i class="fas fa-store-alt pad_r_5"></i>Product</a>
                 </li>
-                <li class="mgr_32 mb_hidden"><a href="#"><i class="fas fa-user pad_r_5"></i>log in</a>
+                <li class="pad_r_32 mb_hidden"><a href="#"><i class="fas fa-user pad_r_5"></i>log in</a>
                 </li>
-                <li class="mgr_32 mb_hidden"><a href="#"><i class="fas fa-heart pad_r_5"></i>Wishlist</a>
+                <li class="pad_r_32 mb_hidden"><a href="#"><i class="fas fa-heart pad_r_5"></i>Wishlist</a>
                 </li>
                 <li class="mb-menu_1 box_1"><a href="#"><i class="fas fa-shopping-cart pad_r_5"></i><span
                             class="mb-none">Cart</span><span class="mb_hidden">(3)</span><em class="box">3</em></a>
                 </li>
-                <li class="mb-menu_2">
-                    <a href="#" class="ham-icoㄋn"><i class="fas fa-bars "></i></a>
-                </li>
+                <li><a href="#" class="ham-icon"><i class="fas fa-bars "></i></a></li>
+            </ul>
+            <ul class="dropdown">
+                <li><a href="product.html">Product</a></li>
+                <li><a href="#">Wishlist</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">log in</a></li>
             </ul>
         </div>
     </div>
@@ -49,6 +55,22 @@
     </div>
     <div class="product_wrap mgt_80">
         <div class="product_wrap_content">
+            <ul class="product_wrap_item">
+                <li class="mgb_8">
+                    <div class="pic">
+                        <a href="#"><img class="img"
+                                src="https://github.com/hexschool/webLayoutTraining1st/blob/master/perfume-week6/products1.jpg?raw=true"
+                                alt="product"></a>
+                    </div>
+                    <h3>Poppy & Barley</h3>
+                    <h4 class="mgb_16">Jo Malone</h4>
+                    <p>NT$1,380<span class="line-through pad_l_8">NT$1,580</span></p>
+                    <ul class="product_icon">
+                        <li class="pd_icon_1 mgt_3 pad_r_11"><i class="fas fa-heart pad_r_5"></i></li>
+                        <li class="pd_icon mgt_3"><a href="#"><i class="fas fa-shopping-cart pad_r_5"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
             <ul class="product_wrap_item">
                 <li class="mgb_8">
                     <div class="pic">
@@ -242,6 +264,7 @@
                 </li>
             </ul>
         </div>
+    </div>
     </div>
     <div class="pagination">
         <ul class="pagination_list">
