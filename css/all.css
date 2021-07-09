@@ -765,38 +765,6 @@ a {
   padding-top: 40px;
   width: 350px;
   height: 540px;
-  -webkit-transform: scale(1, 1);
-          transform: scale(1, 1);
-  -webkit-transition: all 1s ease-out;
-  transition: all 1s ease-out;
-}
-.pic img:hover {
-  -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-}
-@media (max-width: 1190px) {
-  .pic img {
-    -webkit-transform: none;
-            transform: none;
-    -webkit-transition: none;
-    transition: none;
-  }
-  .pic img:hover {
-    -webkit-transform: none;
-            transform: none;
-  }
-}
-@media (max-width: 767px) {
-  .pic img {
-    -webkit-transform: none;
-            transform: none;
-    -webkit-transition: none;
-    transition: none;
-  }
-  .pic img:hover {
-    -webkit-transform: none;
-            transform: none;
-  }
 }
 .pic img .sold {
   width: 350px;

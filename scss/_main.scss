@@ -389,26 +389,6 @@ a{
         padding-top: 40px;
         width:350px;
         height: 540px;
-        transform:$transform-product;
-        transition: $transition-product;
-        &:hover{
-            transform:$transform-product-hover;
-        }
-        @media (max-width:1190px){
-            transform:none;
-            transition: none;
-            &:hover{
-                transform:none;
-            }
-        }
-
-        @media (max-width:767px){
-            transform:none;
-            transition: none;
-            &:hover{
-                transform:none;
-            }
-        }
 
     .sold{
         width:350px;
