@@ -1411,6 +1411,11 @@ p {
   border: 1px solid #916000;
   border-radius: 4px 0px 0px 4px;
 }
+@media (max-width: 787px) {
+  .section .add_num {
+    height: 64px;
+  }
+}
 .section .add_cart {
   width: 190px;
   text-align: center;
