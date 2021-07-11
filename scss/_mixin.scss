@@ -192,3 +192,47 @@
     padding-right: 15px;
 }
 
+@mixin section {
+    .add_num{
+        width: 160px;
+        text-align: center;
+        font-size: 16px;
+        border: 1px solid #916000;
+        border-radius: 4px 0px 0px 4px;
+    }
+    .add_cart{
+        width: 190px;
+        text-align: center;
+        background-color: #916000;
+        border: 2px solid #916000;
+        border-radius: 0px 4px 4px 0px; 
+        p{
+            color: #FFFF;
+            font-size: 16px;
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
+    }
+}
+
+@mixin product_2_font_style {
+    h1{
+        font-size: 32px;
+        font-family: "SF Pro Text";
+        line-height: 48px;
+        @media (max-width:787px) {
+            margin-top: 20px;
+        }
+    }
+    
+    h2{
+        font-size: 20px;
+        font-family: "蘋方-繁";
+        line-height: 30px;
+        font-weight: lighter;
+    }
+    p{
+        font-size: 16px;
+        font-family: "蘋方-繁";
+    }
+}

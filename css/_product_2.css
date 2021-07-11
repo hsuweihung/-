@@ -1,0 +1,12 @@
+.product_2_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.product_2_content img {
+  width: 720px;
+}
+
+.prodcut_1 {
+  height: 460px;
+}

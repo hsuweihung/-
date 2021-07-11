@@ -81,7 +81,7 @@
 .pd_icon i{
     color: #916019;
     &:hover{
-        font-size: $pd_icon-i-size;
+        color: lighten(#916019,30%);
     }
     &:active{
         color: 	#E0E0E0;
@@ -91,9 +91,6 @@
 .pd_icon_1 i{
     color: #916019;
     &:hover{
-        font-size: $pd_icon-i-size;
-    }
-    &:active{
         color: 	#FF0000;
     }
 }
@@ -124,4 +121,8 @@
     display: flex;
     width: 100px;
     justify-content: space-between;
+}
+
+.product_title_black{
+    color: #000000;
 }
