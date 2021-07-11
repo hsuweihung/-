@@ -258,6 +258,10 @@
     &:hover{
     background: #6C4700 0% 0% no-repeat padding-box;
     }
+    @media (max-width:767px) {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 @mixin register {
@@ -276,5 +280,9 @@
     &:hover{
         color: #FFFF;
         background: #916000 0% 0% no-repeat padding-box;
+    }
+    @media (max-width:767px) {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }

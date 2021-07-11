@@ -1038,7 +1038,7 @@ a {
 .dropdown {
   position: absolute;
   left: 0;
-  top: 7.6%;
+  top: 8%;
   width: 100%;
   max-height: 0px;
   -webkit-transition: all 0.8s;
@@ -1541,6 +1541,12 @@ input {
 .login:hover {
   background: #6C4700 0% 0% no-repeat padding-box;
 }
+@media (max-width: 767px) {
+  .login {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
 .register {
   font-size: 16px;
@@ -1559,4 +1565,10 @@ input {
 .register:hover {
   color: #FFFF;
   background: #916000 0% 0% no-repeat padding-box;
+}
+@media (max-width: 767px) {
+  .register {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
