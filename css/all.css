@@ -1540,12 +1540,6 @@ input {
 .login:hover {
   background: #6C4700 0% 0% no-repeat padding-box;
 }
-@media (max-width: 767px) {
-  .login {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-}
 
 .register {
   font-size: 16px;
@@ -1558,14 +1552,9 @@ input {
   color: #916000;
   width: 65px;
   border: 1px solid #916000;
+  border-radius: 4px;
 }
 .register:hover {
   color: #FFFF;
   background: #916000 0% 0% no-repeat padding-box;
-}
-@media (max-width: 767px) {
-  .register {
-    padding-left: 16px;
-    padding-right: 16px;
-  }
 }
