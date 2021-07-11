@@ -31,6 +31,10 @@
   margin-top: 32px;
 }
 
+.mgt_36 {
+  margin-top: 36px;
+}
+
 .mgt_52 {
   margin-top: 52px;
 }
@@ -59,8 +63,16 @@
   margin-top: 142px;
 }
 
+.mgb_4 {
+  margin-bottom: 4px;
+}
+
 .mgb_8 {
   margin-bottom: 8px;
+}
+
+.mgb_12 {
+  margin-bottom: 12px;
 }
 
 .mgb_16 {
@@ -1053,6 +1065,14 @@ a {
   background: #916019;
 }
 
+.dropdown .login_active {
+  background-color: #c7c7c7;
+}
+
+.dropdown .product_active {
+  background-color: #c7c7c7;
+}
+
 .banner_product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1438,4 +1458,101 @@ p {
     -o-object-position: center;
        object-position: center;
   }
+}
+
+.log_in_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.log_in_content img {
+  max-width: 730px;
+}
+@media (max-width: 787px) {
+  .log_in_content img {
+    margin-top: 40px;
+    margin-left: 30px;
+    max-width: 345px;
+  }
+}
+
+h1 {
+  font-size: 32px;
+  font-family: "SF Pro Text";
+  font-weight: bolder;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 16px;
+  font: normal normal normal 16px/22px PingFang TC;
+  font-weight: bolder;
+  line-height: 22px;
+}
+
+input {
+  color: #818A91;
+  font-family: "SF Pro Text";
+  width: 350px;
+  font-size: 16px;
+  top: 485px;
+  border: 1px solid #CED4DA;
+  border-radius: 4px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+}
+
+.forget {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.forget p {
+  font-size: 16px;
+  color: #916000;
+  font-family: "蘋方-繁";
+  font-weight: bolder;
+}
+
+.login {
+  color: #FFFF;
+  text-align: center;
+  font-size: 16px;
+  font-family: "蘋方-繁";
+  width: 65px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: #916000 0% 0% no-repeat padding-box;
+  border: 1px solid #6C4700;
+  border-radius: 4px;
+  opacity: 1;
+}
+.login:hover {
+  background: #6C4700 0% 0% no-repeat padding-box;
+}
+
+.register {
+  font-size: 16px;
+  font-family: "蘋方-繁";
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #916000;
+  width: 65px;
+  border: 1px solid #916000;
+  border-radius: 4px;
+  opacity: 1;
+}
+.register:hover {
+  color: #FFFF;
+  background: #916000 0% 0% no-repeat padding-box;
 }
