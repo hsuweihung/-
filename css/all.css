@@ -1433,5 +1433,9 @@ p {
 @media (max-width: 787px) {
   .img_down {
     height: 460px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
 }

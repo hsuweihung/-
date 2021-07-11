@@ -125,5 +125,7 @@
 .img_down{
     @media (max-width:787px) {
         height: 460px;
+        object-fit: cover;
+        object-position: center;
     }
 }
