@@ -118,7 +118,8 @@
 }
 
 .section{
-    display: flex;  
+    display: flex;
+    height: 50px;
     @include section;
 }
 
