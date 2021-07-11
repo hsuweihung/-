@@ -523,26 +523,24 @@ a{
  }
 }
 
-
-
- .ham-icon {
+.ham-icon {
     display: none;
   }
-  .ham-icon i {
+.ham-icon i {
     font-size: 20px;
     margin-left: 20px;
   }
   
   @media (max-width: 768px) {
- .ham-icon {
+    .ham-icon {
       display: block;
     }
   }
   
-  .dropdown {
+.dropdown {
     position: absolute;
     left: 0;
-    top: 100%;
+    top: 11%;
     width: 100%;
     max-height: 0px;
     -webkit-transition: all 0.8s;
@@ -551,11 +549,11 @@ a{
     z-index: 120;
   }
   
-  .dropdown.active {
+.dropdown.active {
     max-height: 250px;
   }
   
-  .dropdown li a {
+.dropdown li a {
     display: block;
     background: #707070;
     color: #FFFFFF;
@@ -565,12 +563,12 @@ a{
     text-align: center;
   }
   
-  .dropdown li a {
+.dropdown li a {
     &:hover{
         background: #916019;}
   }
 
-  .dropdown .login_active{
+.dropdown .login_active{
     background-color: #c7c7c7;
 }
 
