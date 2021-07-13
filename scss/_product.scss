@@ -13,7 +13,19 @@
     }
 }
 
-.pad_hidden{
+.pad_hidden_1, .pad_hidden_2{
+    @media (max-width:767px) {
+        display: none;
+    }
+}
+
+.pad_hidden_1{
+    @media (max-width:1190px) {
+        display: block;
+    }
+}
+
+.pad_hidden_2{
     @media (max-width:1190px) {
         display: none;
     }
