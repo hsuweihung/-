@@ -4,7 +4,11 @@
     justify-content: center;
     img{
         max-width: 730px;
-    @media (max-width:787px) {
+    @media (max-width:768px) {
+            margin-top: 40px;
+            margin-left: 30px;
+        }
+    @media (max-width:767px) {
         margin-top: 40px;
         margin-left: 30px;
         max-width: 345px;
@@ -26,6 +30,11 @@ h2{
     line-height: 22px;
 }
 
+.login_txt{
+    @media (max-width:1190px) {
+        padding-top: 20px;
+    }
+}
 
 input{
     color: #818A91;
@@ -59,4 +68,8 @@ input{
 
 .register{
     @include register;
+}
+
+.login_footer{
+    background-color: #916000;
 }

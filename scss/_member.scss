@@ -1,5 +1,163 @@
+.member_content{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .member_container{
     display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    h1{
+        font-size: 16px;
+        color: #8D8D8D;
+    }
+    i{
+        display: inline;
+        color: #000;
+    }
+    .member_number{
+        font-size: 16px;
+        color: #8D8D8D;
+    }
+    @media (max-width:768px) {
+        margin-top: 20px;  
+        margin-left: 10px;
+    }
+}
+
+
+.member_info{
+    h1{
+    border-bottom: 1px solid #818A91;
+    }
+    p{  
+        font-size: 16px;
+        display: inline-block;
+    }
+    @media (max-width:768px) {
+        margin-right: 0px;
+    }
+}
+
+
+.member_num_info{
+    h3{
+        font-size: 16px;
+        color: #8D8D8D;
+    }
+    p{
+        color: #8D8D8D;
+    }
+    .copywrite{
+        font-size: 14px;
+    }
+}
+
+.member_account{
+    display: flex;
+}
+
+.checkbox{
+    width:16px;
+}
+
+.member_center{
+    @media (max-width:768px) {
+        margin-right: 0px;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    h1{
+        font-size: 20px;
+        @media (max-width:768px) {
+            display: none;
+        }
+    }
+}
+
+.membet_center_function{
+    @media (max-width:768px) {
+        display: flex;
+    }
+}
+
+.membet_center_function li{
+    display: flex;
+    margin-bottom: 24px;
+    line-height: 24px;
+    a{
+        max-width: 97px;
+        color: #848484;
+    }
+    &:hover{
+        border-bottom: 2px solid #916000;
+    }
+    @media (max-width:768px) {
+        &:hover{
+            border-bottom: 2px solid #916000;
+        }
+    }
+}
+
+.mb_center_title{
+    @media (max-width:768px) {
+        margin-right: 40px;
+    }
+}
+
+select{
+    width: 160px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-height: 38px;
+    color: #818A91;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+
+.member_button{
+    color: #FFFFFF;
+    width: 160px;
+    background: #916000 0% 0% no-repeat padding-box;
+    border: 1px solid #916000;
+    border-radius: 4px;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+.input_txt{
+    @media (max-width:768px) {
+        width: 240px;
+    } 
+}
+
+.mobile_80{
+    @media (max-width:768px) {
+        width: 80px;
+    } 
+}
+
+.gender{
+    width: 60px;
+}
+
+.mobile{
+    display: none;
+    @media (max-width:767px) {
+        display: block;
+        margin-left: 5px;
+    }
+}
+
+.pc{
+    @media (max-width:767px) {
+        display: none;
+    }
 }
