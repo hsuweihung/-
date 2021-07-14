@@ -1509,12 +1509,12 @@ p {
 
 .price {
   font-size: 20px;
-  font-family: "SF Pro Text";
+  font-family: SF Pro Text;
 }
 
 .must_know h1, .change h1 {
   font-size: 16px;
-  font-family: "SF Pro Text";
+  font-family: SF Pro Text;
   font-weight: bolder;
 }
 @media (max-width: 767px) {
@@ -1744,6 +1744,10 @@ input {
   }
 }
 
+.member_num {
+  font-family: 蘋方-繁;
+}
+
 .member_num_info h3 {
   font-size: 16px;
   color: #8D8D8D;
@@ -1765,6 +1769,9 @@ input {
   width: 16px;
 }
 
+.member_center {
+  font-family: 蘋方-繁;
+}
 @media (max-width: 768px) {
   .member_center {
     margin-right: 0px;
